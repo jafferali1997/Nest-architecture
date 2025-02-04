@@ -1,15 +1,12 @@
-# Expense Management API
+# Nest Architecture
 
 ## Overview
 
-This is an Expense Management API built using NestJS, TypeORM, and MSSQL. It includes authentication, user management, and role-based access control (RBAC).
+This is an Nest Architecture built using NestJS, TypeORM, and MSSQL. It includes authentication, user management.
 
 ## Features
 
 - User authentication (JWT)
-- Role-based access control (RBAC)
-- Organization and group management
-- Expense tracking
 - Database migrations
 - REST API documentation with Swagger
 
@@ -32,12 +29,12 @@ This is an Expense Management API built using NestJS, TypeORM, and MSSQL. It inc
    Create a `.env` file and configure the required settings:
 
    ```env
-   DATABASE_HOST=localhost
-   DATABASE_PORT=1433
-   DATABASE_USER=your_username
-   DATABASE_PASSWORD=your_password
-   DATABASE_NAME=expense_db
-   JWT_SECRET_KEY=your_secret_key
+   DATABASE_HOST=
+   DATABASE_PORT=
+   DATABASE_USER=
+   DATABASE_PASSWORD=
+   DATABASE_NAME=
+   JWT_SECRET_KEY=
    ```
 
 4. Run the database migrations:
